@@ -1,0 +1,14 @@
+import React from "react";
+import styles from "./Search.module.css"
+import Nav from "./layout/Nav";
+
+function Search() {
+  return (
+    <div className={styles.Container}>
+      <Nav/>
+      <h1>Resultado para a busca de produtos</h1>
+    </div>
+  );
+}
+
+export default Search;
